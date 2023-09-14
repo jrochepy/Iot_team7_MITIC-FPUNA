@@ -1,37 +1,20 @@
 7.	Implementación y Desarrollo:
 Se presenta a continuación el detalle técnico de los componentes físicos y la plataforma de software propuesto para el desarrollo del proyecto.
 
-Componentes	Fabricante/Modelo	Características principales
-Sensor de temperatura y humedad	Seeed / Grove - Temperature & Humidity Sensor (DHT11)	Voltaje de entrada 3,3 V y 5 V
-		Corriente de medición 1,3 - 2,1 mA
-		Hum rango 5 ~ 95% de humedad relativa
-		Temp rango -20 ~ 60℃
-Actuador-intermedio	Seeed / Relay Board v1.0	Fuente de alimentación: 4.75~5.5V
-Corriente de conmutación máxima: 15A
-Actuador-contactor	ABB / AF30-30-22-13	Corriente Nominal: (A): 32 (kw): 15
-Tensión de bobina (VCA): 100-250
-Tensión Nominal (VCA): 690
-MCU	Espressif / ESP8266	802.11 b/g/n
-Voltaje de Alimentación: 5V DC
-Pines Digitales GPIO: 17
-Pin Analógico ADC: 1 (0-1V)
-Certificación FCC
-Antena en PCB
-Servidor (Software Cloud)	Azure IoT Central	Plataforma de aplicaciones como servicio
+![tabla](https://github.com/jrochepy/Iot_team7_MITIC-FPUNA/assets/133827326/2cb39fb9-4931-4e67-a327-45e2a2110901)
 Tabla 1. Selección de componentes propuestos
 
-![Imagen1](https://github.com/jrochepy/Iot_team7_MITIC-FPUNA/assets/133827326/2503b39e-f97a-427b-8a45-02c089e76414)
 
 Diagrama de generación de información
 
 A continuación, se presenta el esquema de conexiones de los componentes del sistema, se muestra un flujo de datos de la programación que realiza la generación de información, transmisión, procesamiento e interacciones.
 
- 
+![Imagen1](https://github.com/jrochepy/Iot_team7_MITIC-FPUNA/assets/133827326/2503b39e-f97a-427b-8a45-02c089e76414)
 Figura 6. Diagrama de generación de eventos
 
 En el esquema los sensores del dispositivo envían las temperaturas dato de telemetría a una aplicación conectada mediante Azure IoT Central. La aplicación en la nube supervisa las temperaturas y realiza acciones si la temperatura es demasiado baja o alta. Los dispositivos pueden recibir órdenes para ajustar la temperatura o iniciar y detener el funcionamiento. Se tiene un proceso de reserva en caso de que se produzca un error de funcionamiento en un sistema principal o este se quede sin conexión
 
- 
+ ![Imagen2](https://github.com/jrochepy/Iot_team7_MITIC-FPUNA/assets/133827326/f2b39051-a3b2-4679-b571-b50737433d4f)
 Figura 7. Diagrama de flujo de evento
 
 
@@ -55,5 +38,5 @@ Se opta por esta Plataforma de aplicaciones considerando las ventajas respecto a
 
 En la Tabla X se presenta el cronograma propuesto para el desarrollo del proyecto, se puede ver que se otorga mayor cantidad de tiempo a las tareas de “Desarrollo de la plataforma” y “Pruebas y Optimización” de manera a lograr una respuesta óptima y eficiente en los resultados. A partir de la semana numero 17 en adelante se realiza el monitoreo del sistema.
 
- 
+ ![Imagen3](https://github.com/jrochepy/Iot_team7_MITIC-FPUNA/assets/133827326/47a4baa7-7f9c-498d-9c05-dd97f3fad82d)
 Tabla 2. Cronograma propuesto para la implementación
