@@ -20,7 +20,7 @@ Antena en PCB
 Servidor (Software Cloud)	Azure IoT Central	Plataforma de aplicaciones como servicio
 Tabla 1. Selección de componentes propuestos
 
-
+(images/Imagen1.jpg)
 Diagrama de generación de información
 
 A continuación, se presenta el esquema de conexiones de los componentes del sistema, se muestra un flujo de datos de la programación que realiza la generación de información, transmisión, procesamiento e interacciones.
