@@ -20,7 +20,7 @@ En el esquema los sensores del dispositivo envían las temperaturas dato de tele
  
 Figura 2. Diagrama de flujo de evento
 
-[![Alt text](https://img.youtube.com/vi/ggm8BB73cKA&t=4s/0.jpg)](https://www.youtube.com/watch?v=ggm8BB73cKA&t=4s)
+[![Alt text](https://img.youtube.com/vi/H7jiZ5GbeCq5U53N/0.jpg)](https://www.youtube.com/watch?v=H7jiZ5GbeCq5U53N)
 
 Descripción de los componentes.
 
