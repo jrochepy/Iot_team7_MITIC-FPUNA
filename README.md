@@ -20,7 +20,8 @@ Antena en PCB
 Servidor (Software Cloud)	Azure IoT Central	Plataforma de aplicaciones como servicio
 Tabla 1. Selección de componentes propuestos
 
-([images/Imagen1.jpg](https://github.com/jrochepy/Iot_team7_MITIC-FPUNA/blob/349ba6a72f98ec388e6c5a1bd4c995e4240aae96/images/Imagen1.jpg))
+![Imagen1](https://github.com/jrochepy/Iot_team7_MITIC-FPUNA/assets/133827326/2503b39e-f97a-427b-8a45-02c089e76414)
+
 Diagrama de generación de información
 
 A continuación, se presenta el esquema de conexiones de los componentes del sistema, se muestra un flujo de datos de la programación que realiza la generación de información, transmisión, procesamiento e interacciones.
