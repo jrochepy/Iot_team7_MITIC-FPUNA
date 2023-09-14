@@ -36,7 +36,7 @@ Figura 7. Diagrama de flujo de evento
 
 7.1 Descripción de los componentes.
 
-a.	Sensor: Grove - Temperature & Humidity Sensor (DHT11)
+a.Sensor: Grove - Temperature & Humidity Sensor (DHT11)
 Este dispositivo es un sensor de temperatura y humedad de alta precisión, amplio rango y un bajo costo.
 
 b.	Actuador: Relay Board v1.0
