@@ -1,7 +1,8 @@
-7.	Implementación y Desarrollo:
+Implementación y Desarrollo:
 Se presenta a continuación el detalle técnico de los componentes físicos y la plataforma de software propuesto para el desarrollo del proyecto.
 
 ![tabla](https://github.com/jrochepy/Iot_team7_MITIC-FPUNA/assets/133827326/2cb39fb9-4931-4e67-a327-45e2a2110901)
+
 Tabla 1. Selección de componentes propuestos
 
 
@@ -10,15 +11,17 @@ Diagrama de generación de información
 A continuación, se presenta el esquema de conexiones de los componentes del sistema, se muestra un flujo de datos de la programación que realiza la generación de información, transmisión, procesamiento e interacciones.
 
 ![Imagen1](https://github.com/jrochepy/Iot_team7_MITIC-FPUNA/assets/133827326/2503b39e-f97a-427b-8a45-02c089e76414)
-Figura 6. Diagrama de generación de eventos
+
+Figura 1. Diagrama de generación de eventos
 
 En el esquema los sensores del dispositivo envían las temperaturas dato de telemetría a una aplicación conectada mediante Azure IoT Central. La aplicación en la nube supervisa las temperaturas y realiza acciones si la temperatura es demasiado baja o alta. Los dispositivos pueden recibir órdenes para ajustar la temperatura o iniciar y detener el funcionamiento. Se tiene un proceso de reserva en caso de que se produzca un error de funcionamiento en un sistema principal o este se quede sin conexión
 
  ![Imagen2](https://github.com/jrochepy/Iot_team7_MITIC-FPUNA/assets/133827326/f2b39051-a3b2-4679-b571-b50737433d4f)
-Figura 7. Diagrama de flujo de evento
+ 
+Figura 2. Diagrama de flujo de evento
 
 
-7.1 Descripción de los componentes.
+Descripción de los componentes.
 
 a.Sensor: Grove - Temperature & Humidity Sensor (DHT11)
 Este dispositivo es un sensor de temperatura y humedad de alta precisión, amplio rango y un bajo costo.
@@ -34,9 +37,10 @@ Este es un aPaaS (Plataforma de aplicaciones como servicio) de Microsoft que se 
 
 Se opta por esta Plataforma de aplicaciones considerando las ventajas respecto a experiencia de usuario web, simplifica las operaciones, es escalable y segura. 
 
-7.2 Cronograma de implementación propuesto.
+Cronograma de implementación propuesto.
 
 En la Tabla X se presenta el cronograma propuesto para el desarrollo del proyecto, se puede ver que se otorga mayor cantidad de tiempo a las tareas de “Desarrollo de la plataforma” y “Pruebas y Optimización” de manera a lograr una respuesta óptima y eficiente en los resultados. A partir de la semana numero 17 en adelante se realiza el monitoreo del sistema.
 
- ![Imagen3](https://github.com/jrochepy/Iot_team7_MITIC-FPUNA/assets/133827326/47a4baa7-7f9c-498d-9c05-dd97f3fad82d)
+![crono](https://github.com/jrochepy/Iot_team7_MITIC-FPUNA/assets/133827326/2697060c-bb08-4c25-8046-6c732469f2ec)
+
 Tabla 2. Cronograma propuesto para la implementación
